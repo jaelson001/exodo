@@ -1,0 +1,126 @@
+#logo {
+	width: 200px;
+	display: block;
+	position: absolute;
+	top: 5%;
+}
+.conteudo_banner {
+  width: 50%;
+  float: left;
+}
+#inicio {
+	background: url("../img/bg_banner.jpg");
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#inicio::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	width: 20px;
+	height: 20px;
+	border-top: 1px solid #3f3f3f;
+	border-right: 1px solid #3f3f3f;
+	transform: rotate(135deg);
+}
+#inicio::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	width: 20px;
+	height: 20px;
+	border-top: 1px solid #3f3f3f;
+	border-right: 1px solid #3f3f3f;
+	transform: rotate(135deg);
+}
+#saiba_mais, .btn_enviar{
+	background: #3f3f3f;
+	color:#eeeeee;
+}
+
+#saiba_mais:hover, .btn_enviar:hover{
+	background: #ff8915;
+	color:#eeeeee;
+}
+
+#sobre, #trabalho, #contato{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: space-around;
+	padding:5% 0px;
+}
+#trabalho{
+	position: relative;
+	color: #eeeeee;
+	background: #3f3f3f;
+}
+#trabalho .hr{
+	border-top:1px solid #eee6 !important; 
+}
+.conteudo_caracteristicas{
+	width: 100%;
+	padding:10px;
+	margin:10px;
+}
+.img_car, .img_work {
+	width: 45px;
+	margin: 20px auto;
+	display: block;
+}
+.subtitulo{
+	width: 100%;
+	text-align: center;
+}
+.coluna_contato{
+	margin-bottom:10%;
+}
+.container_links, .container_mapa{
+	height: 75%;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+}
+i.fa{
+	margin-right: 10px;
+	font-size: 35px;
+}
+.link_ligar {
+	width: 100%;
+	display: block;
+	padding: 12px;
+	font-size: 1.5em;
+	color: #3f3f3f;
+	text-align: center;
+}
+.link_ligar:hover {
+	color: #ff8915;
+	text-decoration: none;
+}
+.form-control:focus {
+	border-color: #222 !important;
+	box-shadow: 0 0 0 .2rem #0d0d0d40 !important;
+}
+
+#rodape{
+	background: #3f3f3f;
+	padding: 15px;
+	width: 100%;
+}
+.texto_rodape{
+	text-align: center;
+	width: 100%;
+	color: #eee;
+	display: inline-block;
+}
+@media (max-width: 480px){
+	.conteudo_banner {
+		width: 100%;
+	}
+}
