@@ -126,4 +126,7 @@ i.fa{
 	.conteudo_banner {
 		width: 100%;
 	}
+	#inicio{
+		background: #e8ebf0;
+	}
 }
