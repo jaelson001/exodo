@@ -129,4 +129,10 @@ i.fa{
 	#inicio{
 		background: #e8ebf0;
 	}
+	#logo {
+		width: 180px;
+		display: block;
+		position: static;
+		top: 15px;
+	}
 }
