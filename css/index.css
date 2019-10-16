@@ -44,12 +44,12 @@ html {
 	transform: rotate(135deg);
 }
 #saiba_mais, .btn_enviar{
-	background: #3f3f3f;
+	background: #3f3f3f !important;
 	color:#eeeeee;
 }
 
 #saiba_mais:hover, .btn_enviar:hover{
-	background: #ff8915;
+	background: #ff8915 !important;
 	color:#eeeeee;
 }
 
